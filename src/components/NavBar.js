@@ -1,7 +1,7 @@
 import React from "react"
 
-default export function NavBar() {
+export default  function NavBar() {
     return (
-        
+        <h3 className="navbar">navbar links here </h3>
     )
 }
