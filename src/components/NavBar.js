@@ -2,6 +2,12 @@ import React from "react"
 
 export default  function NavBar() {
     return (
-        <h3 className="navbar">navbar links here </h3>
+        <div className="navbar">
+        <h3 >navbar links here </h3>
+        <Link></Link>
+        <Link></Link>
+        <Link></Link>
+        </div>
     )
+
 }
