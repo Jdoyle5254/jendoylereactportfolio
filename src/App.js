@@ -2,35 +2,30 @@ import React from "react"
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
 import NavBar from "./components/NavBar"
-import LinksMenu from "./components/LinksMenu"
 import Footer from "./components/Footer"
-import AboutMe from "./components/AboutMe"
-// import {
-//   BrowserRouter as Router,
-//   Link
-// } from "react-router-dom";
-import {Container, Col, Row} from 'react-bootstrap';
+import AboutMePage from "./components/AboutMePage"
+import HomePage from "./components/HomePage"
+import PortfolioPage from "./components/PortfolioPage"
+import {  BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="container">
+    <Router>
       <NavBar />
-      <Container>
-        <Row>
-          <Col md="2">
-            <LinksMenu />
-          </Col>
-          <Col md="10">
-            <AboutMe />
-          </Col>
-
-        </Row>
-
-      </Container>
-
+      <Switch>
+        <div className="container">
+          <Route path="/portfolio"><PortfolioPage/></Route>
+          <Route path="/about"><AboutMePage /></Route>
+          <Route exact path="/"><HomePage /></Route>
+        </div>
+      </Switch>
       <Footer />
-    </div>
+
+    </Router>
+
+  
   );
 }
 

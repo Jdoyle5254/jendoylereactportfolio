@@ -6,11 +6,23 @@
 
 }
 .navbar {
+  margin-bottom: 35px; 
+  width: 100%;
+  background-color: #bdb768 ;
+  color: #8b008b;
   text-align: center;
+
 }
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bdb768 ;
+  color: #8b008b;
   text-align: center;
+
 
 }
 
