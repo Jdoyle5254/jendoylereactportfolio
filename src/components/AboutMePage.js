@@ -1,5 +1,4 @@
-import React from "react"
- 
+import React from "react" 
 import Footer from "./Footer"
 import LinksMenu from "./LinksMenu"
 import AboutMe from "./AboutMe"

@@ -1,7 +1,7 @@
 // {
 //     id: 1,
-//     image: "",
-//     projectTitle: "",
+//     projimage: "",
+//     title: "",
 //     github: "",
 //     deploy: "",
 //     tech: [""],
@@ -9,13 +9,10 @@
 // },
 
 
-
-
-
 export const projectsData = [
     {
         id: 1,
-        // projimg: "./Images/Keep on Giftin'.png",
+        projimage: "./Images/Keep on Giftin'.png",
         title: "Keep on Giftin'",
         github: "https://github.com/girl-power-5/ubiquitous-giggle",
         deploy: "https://keep-on-giftin.herokuapp.com/",
@@ -25,8 +22,8 @@ export const projectsData = [
 
     {
         id: 2,
-        image: "./Images/NotesCreated.PNG",
-        projectTitle: "Note Taker",
+        projimage: "./Images/NotesCreated.PNG",
+        title: "Note Taker",
         github: "https://github.com/Jdoyle5254/note_taker_w11",
         deploy: "https://wonderful-note-taker.herokuapp.com/notes",
         tech: ["HTML", "CSS", "JavaScript", "Heroku", "Node.js"],
@@ -34,8 +31,8 @@ export const projectsData = [
 },
 {
     id: 3,
-    image: "./Images/PasswordGenerated.PNG",
-    projectTitle: "Password Generator",
+    projimage: "./Images/PasswordGenerated.PNG",
+    title: "Password Generator",
     github: "https://github.com/Jdoyle5254/passwordgenerator-w3",
     deploy: "https://jdoyle5254.github.io/passwordgenerator-w3/",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -43,8 +40,8 @@ export const projectsData = [
 },
 {
     id: 4,
-    image: "",
-    projectTitle: "JenDoyle Portfolio",
+    projimage: "",
+    title: "JenDoyle Portfolio",
     github: "https://jdoyle5254.github.io/JenDoyle-Portfolio/",
     deploy: " https://jdoyle5254.github.io/JenDoyle-Portfolio/",
     tech: ["HTML", "CSS", "Bootstrap"],
@@ -53,8 +50,8 @@ export const projectsData = [
 
 {
     id: 5,
-    image: "./Images/Header.PNG",
-    projectTitle: "Weather Dashboard",
+    projimage: "./Images/Header.PNG",
+    title: "Weather Dashboard",
     github: "https://github.com/Jdoyle5254/weather-dashboard-w6",
     deploy: " https://jdoyle5254.github.io/weather-dashboard-w6/",
     tech: ["HTML", "CSS", "Handlebars", "mySQL", "JavaScript"],
@@ -64,8 +61,8 @@ export const projectsData = [
 
 {
     id: 6,
-    image: "./Images/Page.PNG",
-    projectTitle: "Devour Da Burger",
+    projimage: "./Images/Page.PNG",
+    title: "Devour Da Burger",
     github: " https://github.com/Jdoyle5254/burger_app_w13",
     deploy: "https://devour-da-burger-app.herokuapp.com/",
     tech: ["HTML", "CSS", "MySQL", "JavaScript", "Express", "Express-Handlebars", "Heroku"],
@@ -74,8 +71,8 @@ export const projectsData = [
 
 {
     id: 6,
-    image: "./Images/readhere.png",
-    projectTitle: "Read Here",
+    projimage: "./Images/readhere.png",
+    title: "Read Here",
     github: "https://github.com/TheDreamTeam-NUBootCamp/ReadHere",
     deploy: "https://thedreamteam-nubootcamp.github.io/ReadHere/",
     tech: ["HTML", "CSS", "JavaScript", "API's", "JQuery", "Bootstrap"],

@@ -7,8 +7,11 @@ export default function ProjectList(props) {
             <Project 
                key={project.id}
                id={project.id}
+               projimage={project.projimage}
                title={project.title}
                github={project.github}
+               deploy={project.deploy}
+               tech={project.tech}
                description={project.description}
    
             />

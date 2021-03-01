@@ -14,8 +14,20 @@
 
 }
 
+.projectbody {
+  margin-bottom: 40px;
+  border-bottom: dashed; 
+
+
+}
+
+.projectheader {
+  text-align: center;
+}
+
 .footer {
   position: fixed;
+  margin-top: 55px;
   left: 0;
   bottom: 0;
   width: 100%;
