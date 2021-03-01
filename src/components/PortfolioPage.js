@@ -19,8 +19,6 @@ export default function PortfolioPage() {
         <h1 className="projectheader"> Check these out! </h1>
         <ProjectList projects = {projectsData} />
 
-
-
         </Col>
         </Row>
         </Container>

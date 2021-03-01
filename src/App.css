@@ -1,4 +1,7 @@
+
+
 .links {
+  border-right: solid 2px black; 
    margin-left: 10px;
    margin-right: 0px; 
   padding-right: 0px; 
@@ -8,11 +11,13 @@
 .navbar {
   margin-bottom: 35px; 
   width: 100%;
-  background-color: #bdb768 ;
-  color: #8b008b;
+  background-color: #F0FFF0 ;
+  color: #800000 ;
   text-align: center;
 
 }
+
+
 
 .projectbody {
   margin-bottom: 40px;
@@ -25,14 +30,27 @@
   text-align: center;
 }
 
+.homebutton {
+  justify: right; 
+  border: solid 2px #8b008b; 
+  color:  #8b008b;
+  padding-top: 25px; 
+  font-size: 30px;
+  width: 100px;
+  text-align: center; 
+  justify-content: center;
+  background-color: honeydew ; 
+
+}
+
 .footer {
   position: fixed;
   margin-top: 55px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #bdb768 ;
-  color: #8b008b;
+  background-color: #F0FFF0;
+  color: #800000;
   text-align: center;
 
 
@@ -40,8 +58,10 @@
 
 .biopic {
   margin-bottom: 12px; 
+  border: solid 2px black; 
 }
 
 .canal {
   margin-top: 12px;
+  border: solid 2px black; 
 }
