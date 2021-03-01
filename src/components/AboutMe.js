@@ -1,7 +1,7 @@
 import React from "react";
 import BioPic from "../assets/BioPic.jpg"
 import Canal from "../assets/Canal.jpg"
-import Mexico from "../assets/Mexico.JPEG"
+// import Mexico from "../assets/Mexico.JPEG"
 import { Col, Row} from 'react-bootstrap';
 import '../App.css';
 

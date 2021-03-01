@@ -5,10 +5,10 @@ import NavBar from "./components/NavBar"
 import LinksMenu from "./components/LinksMenu"
 import Footer from "./components/Footer"
 import AboutMe from "./components/AboutMe"
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Link
+// } from "react-router-dom";
 import {Container, Col, Row} from 'react-bootstrap';
 import './App.css';
 

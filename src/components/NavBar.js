@@ -19,11 +19,12 @@ export default  function NavBar() {
   }
     return (
          
+        
+        <Router>
         <div className="navbar">
         <h3 >Good {timeOfDay} and welcome to my world! </h3>
-        <Router>
             <Link to = "/">Home </Link>
-            <Link to="/portfoliopage">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
 
             <Switch>
             <Route exact path="/">
@@ -33,9 +34,10 @@ export default  function NavBar() {
                 <PortfolioPage/>
             </Route>
             </Switch>
+            </div>
         </Router>
         
-        </div>
+     
 
         
       
