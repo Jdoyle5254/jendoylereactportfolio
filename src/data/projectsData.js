@@ -12,7 +12,7 @@
 export const projectsData = [
     {
         id: 1,
-        projimage: "./Images/Keep on Giftin'.png",
+        projimage: "KeeponGiftin.png",
         title: "Keep on Giftin'",
         github: "https://github.com/girl-power-5/ubiquitous-giggle",
         deploy: "https://keep-on-giftin.herokuapp.com/",
@@ -22,7 +22,7 @@ export const projectsData = [
 
     {
         id: 2,
-        projimage: "./Images/NotesCreated.PNG",
+        projimage: "NotesCreated.PNG",
         title: "Note Taker",
         github: "https://github.com/Jdoyle5254/note_taker_w11",
         deploy: "https://wonderful-note-taker.herokuapp.com/notes",
@@ -31,7 +31,7 @@ export const projectsData = [
 },
 {
     id: 3,
-    projimage: "./Images/PasswordGenerated.PNG",
+    projimage: "PasswordGenerated.PNG",
     title: "Password Generator",
     github: "https://github.com/Jdoyle5254/passwordgenerator-w3",
     deploy: "https://jdoyle5254.github.io/passwordgenerator-w3/",
@@ -50,7 +50,7 @@ export const projectsData = [
 
 {
     id: 5,
-    projimage: "./Images/Header.PNG",
+    projimage: "weather.PNG",
     title: "Weather Dashboard",
     github: "https://github.com/Jdoyle5254/weather-dashboard-w6",
     deploy: " https://jdoyle5254.github.io/weather-dashboard-w6/",
@@ -61,7 +61,7 @@ export const projectsData = [
 
 {
     id: 6,
-    projimage: "./Images/Page.PNG",
+    projimage: "Page.PNG",
     title: "Devour Da Burger",
     github: " https://github.com/Jdoyle5254/burger_app_w13",
     deploy: "https://devour-da-burger-app.herokuapp.com/",
@@ -71,7 +71,7 @@ export const projectsData = [
 
 {
     id: 6,
-    projimage: "./Images/readhere.png",
+    projimage: "readhere.png",
     title: "Read Here",
     github: "https://github.com/TheDreamTeam-NUBootCamp/ReadHere",
     deploy: "https://thedreamteam-nubootcamp.github.io/ReadHere/",

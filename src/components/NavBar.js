@@ -23,8 +23,6 @@ export default function NavBar() {
       <NavLink activeClassName="is-active" to="/"> Home </NavLink>
       <NavLink activeClassName="is-active" to="/about"> About Jen</NavLink>
       <NavLink activeClassName="is-active" to="/portfolio">Portfolio</NavLink>
-
-
     </div>
 
 

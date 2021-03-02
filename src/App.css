@@ -2,6 +2,7 @@
 
 .links {
   border-right: solid 2px black; 
+  margin-top: 75px; 
    margin-left: 10px;
    margin-right: 0px; 
   padding-right: 0px; 
@@ -16,7 +17,12 @@
   text-align: center;
 
 }
-
+.bodyhome {
+  background-image: url("./assets/lakefront2.jpg");
+  background-repeat: no-repeat;
+  height: 1000px; 
+      
+}
 
 
 .projectbody {
@@ -31,15 +37,17 @@
 }
 
 .homebutton {
-  justify: right; 
-  border: solid 2px #8b008b; 
-  color:  #8b008b;
-  padding-top: 25px; 
+  position: relative;
+  left: 75%; 
+  top: 7%; 
+  border-radius: 50%; 
+  border: solid 2px #8B0000; 
+  color: #8B0000;
   font-size: 30px;
-  width: 100px;
-  text-align: center; 
+  height: 140px; 
+  width: 140px;
   justify-content: center;
-  background-color: honeydew ; 
+  background-color: #da9541 ; 
 
 }
 
