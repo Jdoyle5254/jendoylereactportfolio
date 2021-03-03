@@ -7,11 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
+  <BrowserRouter basename="/endoylereactportfolio">
   <React.StrictMode>
-    <BrowserRouter basename="/endoylereactportfolio">
+    
     <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>,
+
   document.getElementById('root')
 );
 
