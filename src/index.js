@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="/jendoylereactportfolio">
+  <BrowserRouter basename="/jendoylereactportfolio/">
   <React.StrictMode>
     
     <App />
