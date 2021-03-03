@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 import AboutMePage from "./components/AboutMePage"
 import HomePage from "./components/HomePage"
 import PortfolioPage from "./components/PortfolioPage"
-import {  HashRouter as Router, Switch, Route} from "react-router-dom";
+import {  BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import './App.css';
 
