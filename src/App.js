@@ -18,7 +18,7 @@ function App() {
         <div className="container">
           <Route path="/portfolio"><PortfolioPage/></Route>
           <Route path="/about"><AboutMePage /></Route>
-          <Route exact path="/"><HomePage /></Route>
+          <Route exact path="/home"><HomePage /></Route>
         </div>
       </Switch>
       <Footer />

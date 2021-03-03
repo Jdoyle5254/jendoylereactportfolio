@@ -20,7 +20,7 @@ export default function NavBar() {
 
     <div className="navbar">
       <h3 >Good {timeOfDay} and welcome to Jen's World of Code! </h3>
-      <NavLink activeClassName="is-active" to="/"> Home </NavLink>
+      <NavLink activeClassName="is-active" to="/home"> Home </NavLink>
       <NavLink activeClassName="is-active" to="/about"> About Jen</NavLink>
       <NavLink activeClassName="is-active" to="/portfolio">Portfolio</NavLink>
     </div>
